@@ -40,23 +40,3 @@ To keep this project "cheapest possible," the following components are recommend
 
 ---
 
-## Getting Started
-
-### 1. Prerequisites
-* **Arduino IDE** or **VS Code with PlatformIO**.
-* **Libraries:** `RadioHead` (for nRF24L01) and `FastPQC` (a lightweight wrapper for embedded devices).
-
-### 2. Installation
-```bash
-git clone https://github.com/YourRepo/Q-Link-Drone.git
-cd Q-Link-Drone/Firmware
-```
-
-### 3. Flashing
-1.  Open `Transmitter_GCS.ino`.
-2.  Connect your first ESP32 and click **Upload**.
-3.  Open `Receiver_Drone.ino`.
-4.  Connect the second ESP32 and click **Upload**.
-
----
-
